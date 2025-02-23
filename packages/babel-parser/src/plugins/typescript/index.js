@@ -1176,6 +1176,9 @@ export default (superClass: Class<Parser>): Class<Parser> =>
 
       node.typeParameters = this.tsTryParseTypeParameters();
       node.typeAnnotation = this.tsExpectThenParseType(tt.eq);
+      node.whereClause = this.eat(tt._where)
+        ? this.parseStatement("where")
+        : null;
       this.semicolon();
       return this.finishNode(node, "TSTypeAliasDeclaration");
     }

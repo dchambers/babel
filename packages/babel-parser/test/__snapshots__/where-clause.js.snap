@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`where clause syntax should parse 1`] = `
+Node {
+  "comments": Array [],
+  "end": 45,
+  "errors": Array [],
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 45,
+      "line": 1,
+    },
+    "start": Position {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "program": Node {
+    "body": Array [
+      Node {
+        "end": 45,
+        "id": Node {
+          "end": 13,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 13,
+              "line": 1,
+            },
+            "identifierName": "AdultAge",
+            "start": Position {
+              "column": 5,
+              "line": 1,
+            },
+          },
+          "name": "AdultAge",
+          "start": 5,
+          "type": "Identifier",
+        },
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 45,
+            "line": 1,
+          },
+          "start": Position {
+            "column": 0,
+            "line": 1,
+          },
+        },
+        "start": 0,
+        "type": "TSTypeAliasDeclaration",
+        "typeAnnotation": Node {
+          "end": 22,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 22,
+              "line": 1,
+            },
+            "start": Position {
+              "column": 16,
+              "line": 1,
+            },
+          },
+          "start": 16,
+          "type": "TSNumberKeyword",
+        },
+        "typeParameters": undefined,
+        "whereClause": Node {
+          "body": Array [
+            Node {
+              "end": 42,
+              "expression": Node {
+                "end": 42,
+                "left": Node {
+                  "end": 36,
+                  "loc": SourceLocation {
+                    "end": Position {
+                      "column": 36,
+                      "line": 1,
+                    },
+                    "identifierName": "value",
+                    "start": Position {
+                      "column": 31,
+                      "line": 1,
+                    },
+                  },
+                  "name": "value",
+                  "start": 31,
+                  "type": "Identifier",
+                },
+                "loc": SourceLocation {
+                  "end": Position {
+                    "column": 42,
+                    "line": 1,
+                  },
+                  "start": Position {
+                    "column": 31,
+                    "line": 1,
+                  },
+                },
+                "operator": ">=",
+                "right": Node {
+                  "end": 42,
+                  "extra": Object {
+                    "raw": "18",
+                    "rawValue": 18,
+                  },
+                  "loc": SourceLocation {
+                    "end": Position {
+                      "column": 42,
+                      "line": 1,
+                    },
+                    "start": Position {
+                      "column": 40,
+                      "line": 1,
+                    },
+                  },
+                  "start": 40,
+                  "type": "NumericLiteral",
+                  "value": 18,
+                },
+                "start": 31,
+                "type": "BinaryExpression",
+              },
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 42,
+                  "line": 1,
+                },
+                "start": Position {
+                  "column": 31,
+                  "line": 1,
+                },
+              },
+              "start": 31,
+              "type": "ExpressionStatement",
+            },
+          ],
+          "directives": Array [],
+          "end": 44,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 44,
+              "line": 1,
+            },
+            "start": Position {
+              "column": 29,
+              "line": 1,
+            },
+          },
+          "start": 29,
+          "type": "BlockStatement",
+        },
+      },
+    ],
+    "directives": Array [],
+    "end": 45,
+    "interpreter": null,
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 45,
+        "line": 1,
+      },
+      "start": Position {
+        "column": 0,
+        "line": 1,
+      },
+    },
+    "sourceType": "module",
+    "start": 0,
+    "type": "Program",
+  },
+  "start": 0,
+  "type": "File",
+}
+`;

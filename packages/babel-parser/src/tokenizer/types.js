@@ -185,6 +185,7 @@ export const types: { [name: string]: TokenType } = {
   _const: createKeyword("const"),
   _while: createKeyword("while", { isLoop }),
   _with: createKeyword("with"),
+  _where: createKeyword("where", { startsExpr }),
   _new: createKeyword("new", { beforeExpr, startsExpr }),
   _this: createKeyword("this", { startsExpr }),
   _super: createKeyword("super", { startsExpr }),

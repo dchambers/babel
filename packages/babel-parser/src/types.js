@@ -1370,6 +1370,7 @@ export type TsTypeAliasDeclaration = DeclarationBase & {
   id: Identifier,
   typeParameters: ?TsTypeParameterDeclaration,
   typeAnnotation: TsType,
+  whereClause: ?Expression,
 };
 
 export type TsEnumDeclaration = DeclarationBase & {
